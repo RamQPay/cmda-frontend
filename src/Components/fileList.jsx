@@ -250,6 +250,7 @@ import React, { useState, useEffect } from "react";
 import { ArrowDownTrayIcon, PrinterIcon } from "@heroicons/react/24/outline";
 import SingleReport from "./viewModal";
 import { Environment } from "../Environment";
+//import { Environment } from "../../Environment";
 
 const Table = ({ data, pagination = true }) => {
   const [currentPage, setCurrentPage] = useState(1);
